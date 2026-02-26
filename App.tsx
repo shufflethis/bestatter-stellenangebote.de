@@ -5,7 +5,7 @@ import Jobs from './pages/Jobs';
 import IndustryInfo from './pages/IndustryInfo';
 import Employers from './pages/Employers';
 import Impressum from './pages/Impressum';
-import AIJobAssistant from './components/AIJobAssistant';
+
 import { Menu, X, Facebook, Twitter, Linkedin, Mail, Phone } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -98,8 +98,7 @@ const App: React.FC = () => {
         {renderPage()}
       </main>
 
-      {/* AI Assistant */}
-      <AIJobAssistant />
+
 
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
