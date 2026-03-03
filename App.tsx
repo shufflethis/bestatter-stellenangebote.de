@@ -1,3 +1,4 @@
+// HR-UPDATER: v1.0
 import React, { useState, useEffect } from 'react';
 import { Page } from './types';
 import Home from './pages/Home';
@@ -7,6 +8,10 @@ import Employers from './pages/Employers';
 import Impressum from './pages/Impressum';
 
 import { Menu, X, Facebook, Twitter, Linkedin, Mail, Phone } from 'lucide-react';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
+import AutorSeite from './pages/AutorSeite';
+import Datenschutz from './pages/Datenschutz';
+import Contact from './pages/Contact';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<Page>(Page.HOME);
@@ -37,7 +42,10 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-white font-sans text-slate-900">
+    
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<div className="flex flex-col min-h-screen bg-white font-sans text-slate-900">
       
       {/* Header */}
       <header className="sticky top-0 z-40 w-full bg-white shadow-md border-b border-slate-100">
@@ -140,8 +148,13 @@ const App: React.FC = () => {
           &copy; {new Date().getFullYear()} bestatter-stellenangebote.de - Alle Rechte vorbehalten.
         </div>
       </footer>
-    </div>
-  );
+    </div>} />
+        <Route path="/kontakt" element={<Contact />} />
+        <Route path="/impressum" element={<Impressum />} />
+        <Route path="/datenschutz" element={<Datenschutz />} />
+        <Route path="/autor/thomas-sander" element={<AutorSeite />} />
+      </Routes>
+    </HashRouter>);
 };
 
 export default App;

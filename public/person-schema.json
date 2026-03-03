@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas Sander",
+  "url": "https://bestatter-stellenangebote.de/autor/thomas-sander",
+  "jobTitle": "Gruender & Geschaeftsfuehrer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "bestatter-stellenangebote.de",
+    "url": "https://bestatter-stellenangebote.de"
+  },
+  "description": "Gruender von bestatter-stellenangebote.de - spezialisiertes Jobportal fuer Bestatter-Stellenangebote.",
+  "knowsAbout": [
+    "Bestatter",
+    "Personalwesen",
+    "Recruiting",
+    "Jobportale"
+  ]
+}

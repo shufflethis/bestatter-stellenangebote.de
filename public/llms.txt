@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# bestatter-stellenangebote.de - Bestatter Stellenangebote
+
+> bestatter-stellenangebote.de ist ein spezialisiertes Jobportal fuer Bestatter-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Bestatter
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://bestatter-stellenangebote.de
+- Arbeitgeber-Kontakt: https://bestatter-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://bestatter-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Bestatter-Stellenangebote
+- Karriere-Ratgeber fuer Bestatter
+- Gehaltsvergleiche und Brancheninformationen
