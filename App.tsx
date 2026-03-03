@@ -137,7 +137,7 @@ const App: React.FC = () => {
           <div>
             <h4 className="text-white font-serif font-bold text-lg mb-4">Kontakt</h4>
             <ul className="space-y-2 text-sm">
-              <li className="flex items-center gap-2"><Mail size={16} /> kontakt@bestatter-stellenangebote.de</li>
+              <li className="flex items-center gap-2"><Mail size={16} /> info@socialmediaventure.com</li>
               <li className="flex items-center gap-2"><Phone size={16} /> +49 (0) 30 123456</li>
               <li className="mt-4"><button onClick={() => setCurrentPage(Page.IMPRESSUM)} className="hover:text-white transition-colors underline">Impressum & Datenschutz</button></li>
             </ul>
