@@ -243,13 +243,13 @@ export const MOCK_JOBS: JobListing[] = [
   },
   {
     id: '25',
-    title: 'Bestattungsfachkraft m/w/d',
-    employer: 'Rolf Paulsen Bestattungen KG',
-    location: 'Bad Oldesloe',
+    title: 'Bürohilfe beim Bestatter - auch für Quereinsteiger',
+    employer: 'Libitina Bestattungen GmbH',
+    location: 'Berlin',
     type: 'Vollzeit',
-    description: 'Bestattungsfachkraft m/w/d',
-    tags: ['Bestattungsfachkraft'],
-    date: '2025-08-06'
+    description: 'Bürohilfe beim Bestatter - auch für Quereinsteiger',
+    tags: ['Bürogehilf(e/in)'],
+    date: '2025-09-19'
   }
 ];
 
