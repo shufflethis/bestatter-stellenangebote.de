@@ -1,19 +1,17 @@
 import { GoogleGenAI } from "@google/genai";
 
-const apiKey = process.env.API_KEY || '';
-// Fallback specifically for development/demo if env is missing, though instructions say assume it's there. 
-// We will strictly use process.env.API_KEY as per instructions.
-
-const ai = new GoogleGenAI({ apiKey });
+const FALLBACK_MESSAGE = "Der KI-Assistent ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.";
 
 export const generateCoverLetter = async (
   jobTitle: string,
   experience: string,
   motivation: string
 ): Promise<string> => {
-  if (!apiKey) return "API Key fehlt. Bitte konfigurieren.";
+  const apiKey = process.env.API_KEY || '';
+  if (!apiKey) return FALLBACK_MESSAGE;
 
   try {
+    const ai = new GoogleGenAI({ apiKey });
     const response = await ai.models.generateContent({
       model: 'gemini-2.5-flash',
       contents: `
@@ -31,16 +29,18 @@ export const generateCoverLetter = async (
     return response.text || "Entschuldigung, ich konnte keinen Text generieren.";
   } catch (error) {
     console.error("Gemini Error:", error);
-    return "Es gab ein technisches Problem bei der Erstellung des Anschreibens.";
+    return FALLBACK_MESSAGE;
   }
 };
 
 export const chatWithAssistant = async (message: string, history: {role: 'user' | 'model', text: string}[]): Promise<string> => {
-     if (!apiKey) return "API Key fehlt.";
+     const apiKey = process.env.API_KEY || '';
+     if (!apiKey) return FALLBACK_MESSAGE;
 
      // Construct history in a simplified way for single turn or simple chat
      // Real implementation would map history to 'contents' structure properly
      try {
+         const ai = new GoogleGenAI({ apiKey });
          const chat = ai.chats.create({
              model: 'gemini-2.5-flash',
              config: {
@@ -56,6 +56,6 @@ export const chatWithAssistant = async (message: string, history: {role: 'user' 
          return response.text;
      } catch (e) {
          console.error(e);
-         return "Entschuldigung, ich kann gerade nicht antworten.";
+         return FALLBACK_MESSAGE;
      }
 }
