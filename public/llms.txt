@@ -1,19 +1,47 @@
-# HR-UPDATER: v1.0
 # bestatter-stellenangebote.de - Bestatter Stellenangebote
 
-> bestatter-stellenangebote.de ist ein spezialisiertes Jobportal fuer Bestatter-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> bestatter-stellenangebote.de ist ein spezialisiertes Jobportal fuer Bestatter-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH, Schliemannstrasse 23, 10437 Berlin. Geschaeftsfuehrer: Thomas Sander.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Bestatter
+- Spezialisiertes Jobportal fuer Bestatter, Bestattungsfachkraefte und verwandte Berufe
 - Kostenlose Stellensuche fuer Bewerber
-- Gezielte Reichweite fuer Arbeitgeber
+- Gezielte Reichweite fuer Arbeitgeber im Bestattungswesen
+- Betreiber: Social Media Venture GmbH, Berlin
+- Gruender & Geschaeftsfuehrer: Thomas Sander (https://de.linkedin.com/in/thomas-sander-520676303)
+
+## Zielgruppen
+- Bestattungsfachkraefte auf Jobsuche
+- Bestattermeister und Thanatopraktiker
+- Quereinsteiger ins Bestattungswesen
+- Bestattungshaeuser und Krematorien (Arbeitgeber)
+- Friedhofsverwaltungen
+
+## Inhalte
+- Aktuelle Bestatter-Stellenangebote aus ganz Deutschland
+- Karriere-Ratgeber fuer das Bestattungswesen
+- Informationen zu Ausbildung, Gehalt und Weiterbildung
+- Brancheninformationen und FAQ
+- Arbeitgeber-Services fuer gezieltes Recruiting
+
+## Berufsbilder
+- Bestattungsfachkraft (3-jaehrige duale Ausbildung)
+- Bestattermeister/in (HWK)
+- Thanatopraktiker/in
+- Trauerbegleiter/in und Trauerredner/in
+- Krematoriumsmitarbeiter/in
+- Friedhofsgaertner/in und Friedhofsverwalter/in
+- Bestattungsberater/in
 
 ## Kontakt
 - Website: https://bestatter-stellenangebote.de
-- Arbeitgeber-Kontakt: https://bestatter-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://bestatter-stellenangebote.de/kontakt-bewerber
+- E-Mail: info@socialmediaventure.com
+- Adresse: Social Media Venture GmbH, Schliemannstrasse 23, 10437 Berlin
+- Autor: https://bestatter-stellenangebote.de/#/autor/thomas-sander
 
-## Inhalte
-- Aktuelle Bestatter-Stellenangebote
-- Karriere-Ratgeber fuer Bestatter
-- Gehaltsvergleiche und Brancheninformationen
+## Seiten
+- Startseite: https://bestatter-stellenangebote.de
+- Stellenmarkt: https://bestatter-stellenangebote.de/#/ (Stellenmarkt-Bereich)
+- Impressum: https://bestatter-stellenangebote.de/#/impressum
+- Datenschutz: https://bestatter-stellenangebote.de/#/datenschutz
+- Kontakt: https://bestatter-stellenangebote.de/#/kontakt
+- Autor Thomas Sander: https://bestatter-stellenangebote.de/#/autor/thomas-sander
