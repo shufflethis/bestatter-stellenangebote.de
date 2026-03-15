@@ -3,6 +3,136 @@ import { JobListing, FAQItem } from './types';
 export const MOCK_JOBS: JobListing[] = [
   {
     id: '1',
+    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    employer: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    location: 'Köln',
+    type: 'Vollzeit',
+    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    tags: [],
+    date: '2026-03-15'
+  },
+  {
+    id: '2',
+    title: 'Zahnarzt (m/w/d)',
+    employer: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    tags: [],
+    date: '2026-03-15'
+  },
+  {
+    id: '3',
+    title: 'Zahnarzt (m/w/d)',
+    employer: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    tags: [],
+    date: '2026-03-15'
+  },
+  {
+    id: '4',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    employer: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    tags: [],
+    date: '2026-03-15'
+  },
+  {
+    id: '5',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    employer: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    tags: [],
+    date: '2026-03-15'
+  },
+  {
+    id: '6',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    employer: 'Medisca GmbH',
+    location: 'Kabelsketal',
+    type: 'Vollzeit',
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    tags: [],
+    date: '2026-03-15'
+  },
+  {
+    id: '7',
+    title: 'Aushilfe Bestatter auf 165€ bis 450€ Basis',
+    employer: 'Bestattungshaus Neumann Inh. Britta Köpke-Neumann',
+    location: 'Rathenow',
+    type: 'Vollzeit',
+    description: 'Aushilfe Bestatter auf 165€ bis 450€ Basis',
+    tags: ['Bestattungsfachkraft'],
+    date: '2026-03-13'
+  },
+  {
+    id: '8',
+    title: 'Bestatter/in',
+    employer: 'Blumen- & Bestattungshaus Doreen Peter',
+    location: 'Neubrandenburg, Mecklenburg',
+    type: 'Vollzeit',
+    description: 'Bestatter/in',
+    tags: ['Bestattungsfachkraft'],
+    date: '2026-03-12'
+  },
+  {
+    id: '9',
+    title: 'Bestattungsfachkraft / Bestatter, Bestattungen',
+    employer: 'Bestattungen',
+    location: 'Sprockhövel',
+    type: 'Vollzeit',
+    description: 'Bestattungsfachkraft / Bestatter, Bestattungen',
+    tags: ['Bestattungsfachkraft'],
+    date: '2026-03-12'
+  },
+  {
+    id: '10',
+    title: 'Bestattungshelfer (m/w/d) gesucht!',
+    employer: 'Bestattungen Mayr GmbH',
+    location: 'Peißenberg',
+    type: 'Vollzeit',
+    description: 'Bestattungshelfer (m/w/d) gesucht!',
+    tags: ['Bestattungsfachkraft'],
+    date: '2026-03-12'
+  },
+  {
+    id: '11',
+    title: 'Bestatter m/w/d gesucht',
+    employer: 'Herbert Schmidt GmbH Schreinerei',
+    location: 'Bad Vilbel',
+    type: 'Vollzeit',
+    description: 'Bestatter m/w/d gesucht',
+    tags: ['Bestattungsgehilfe/-gehilfin'],
+    date: '2026-03-11'
+  },
+  {
+    id: '12',
+    title: 'Bestattungsfachkraft (m/w/d)',
+    employer: 'Bestattungen Schöneberg GmbH & Co. KG',
+    location: 'Eppingen',
+    type: 'Vollzeit',
+    description: 'Bestattungsfachkraft (m/w/d)',
+    tags: ['Bestattungsfachkraft'],
+    date: '2026-03-10'
+  },
+  {
+    id: '13',
+    title: 'Bestatter (m/w/d) im kaufmännischen und gewerblichen Bereich in Vollzeit',
+    employer: 'Ahorn Bestattungen West GmbH',
+    location: 'Köln',
+    type: 'Vollzeit',
+    description: 'Bestatter (m/w/d) im kaufmännischen und gewerblichen Bereich in Vollzeit',
+    tags: ['Kaufmännische Fachkraft'],
+    date: '2026-03-09'
+  },
+  {
+    id: '14',
     title: 'Bestattungsfachkraft (m/w/d) im Technischen Dienst',
     employer: 'Sereni Deutschland GmbH',
     location: 'Kandel, Pfalz',
@@ -12,7 +142,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-03-03'
   },
   {
-    id: '2',
+    id: '15',
     title: 'Bestattungsfachkraft (m/w/d)',
     employer: 'I. K.Hofmann GmbH',
     location: 'Eisenhüttenstadt',
@@ -22,7 +152,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-02-25'
   },
   {
-    id: '3',
+    id: '16',
     title: 'Bestatter (m/w/d)',
     employer: 'Bestattungshaus Friedensruh GmbH',
     location: 'Cottbus',
@@ -32,7 +162,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-02-24'
   },
   {
-    id: '4',
+    id: '17',
     title: 'Bestattungsberater (m/w/d) gesucht',
     employer: 'Bestattungen Mayr GmbH',
     location: 'Peißenberg',
@@ -42,7 +172,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-02-19'
   },
   {
-    id: '5',
+    id: '18',
     title: 'Bestattungsfachkraft (m/w/d)',
     employer: 'Bestattungshaus Müller GmbH',
     location: 'Fürstenberg/Havel',
@@ -52,7 +182,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-02-17'
   },
   {
-    id: '6',
+    id: '19',
     title: 'Bestattungsberater (m/w/d)',
     employer: 'Sereni Deutschland GmbH',
     location: 'Mannheim',
@@ -62,7 +192,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-02-10'
   },
   {
-    id: '7',
+    id: '20',
     title: 'Bestatter / Quereinsteiger (m/w/d) gesucht',
     employer: 'Bestattungsdienst Weiß & Mozer GmbH',
     location: 'Jettingen, Württemberg',
@@ -72,7 +202,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-02-04'
   },
   {
-    id: '8',
+    id: '21',
     title: 'Fahrer/Bestattungshelfer (m/w/d) im Technischen Dienst',
     employer: 'Sereni Deutschland GmbH',
     location: 'Bad Dürkheim',
@@ -82,7 +212,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-02-04'
   },
   {
-    id: '9',
+    id: '22',
     title: 'Bestatterhelfer/in (m/w/d) für den Bereitschaftsdienst',
     employer: 'Fritz Freuer KG Beerdigungsinstitut',
     location: 'Delmenhorst',
@@ -92,7 +222,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-02-04'
   },
   {
-    id: '10',
+    id: '23',
     title: 'Bestattungsfachkraft /Bestatter (m/w/d)',
     employer: 'Radoslaw Bukolt Omega Bestattungen',
     location: 'Kleinrinderfeld',
@@ -102,7 +232,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-02-02'
   },
   {
-    id: '11',
+    id: '24',
     title: 'Bestatter - im Technischen Dienst',
     employer: 'Beerdigungs-Institut Tielitz oHG',
     location: 'Bremen',
@@ -112,7 +242,7 @@ export const MOCK_JOBS: JobListing[] = [
     date: '2026-01-27'
   },
   {
-    id: '12',
+    id: '25',
     title: 'Bestatter - Beratung von Angehörigen',
     employer: 'Beerdigungs-Institut Tielitz oHG',
     location: 'Bremen',
@@ -120,136 +250,6 @@ export const MOCK_JOBS: JobListing[] = [
     description: 'Bestatter - Beratung von Angehörigen',
     tags: ['Bestattungsfachkraft'],
     date: '2026-01-27'
-  },
-  {
-    id: '13',
-    title: 'Bestatter (m/w/d) mit Berufserfahrung, Bestattungsfachkraft, Moderner Arbeitsplatz garantiert',
-    employer: 'Bestattungsinstitut Muschter Inhaber Benjamin Wolf',
-    location: 'Ottendorf-Okrilla',
-    type: 'Vollzeit',
-    description: 'Bestatter (m/w/d) mit Berufserfahrung, Bestattungsfachkraft, Moderner Arbeitsplatz garantiert',
-    tags: ['Bestattungsfachkraft'],
-    date: '2026-01-22'
-  },
-  {
-    id: '14',
-    title: 'Bestattungsfachkraft (m/w/d) in Teilzeit oder Vollzeit für Kirchweyhe gesucht',
-    employer: 'Wolle Bestattungen GmbH',
-    location: 'Weyhe bei Bremen',
-    type: 'Vollzeit',
-    description: 'Bestattungsfachkraft (m/w/d) in Teilzeit oder Vollzeit für Kirchweyhe gesucht',
-    tags: ['Bestattermeister/in'],
-    date: '2026-01-20'
-  },
-  {
-    id: '15',
-    title: 'Geschäftsleiter (m/w/d) für Bestattungshaus',
-    employer: 'Sereni Deutschland GmbH',
-    location: 'Bad Krozingen',
-    type: 'Vollzeit',
-    description: 'Geschäftsleiter (m/w/d) für Bestattungshaus',
-    tags: ['Bestattermeister/in'],
-    date: '2026-01-19'
-  },
-  {
-    id: '16',
-    title: 'Bestattermeister (m/w/d)',
-    employer: 'BS Pfeiffer GmbH',
-    location: 'Achern, Baden',
-    type: 'Vollzeit',
-    description: 'Bestattermeister (m/w/d)',
-    tags: ['Bestattermeister/in'],
-    date: '2026-01-05'
-  },
-  {
-    id: '17',
-    title: 'Bestattungsfachkraft / Quereinsteiger*innen (m/w/d) gesucht',
-    employer: 'Gerd Wuscher Bestattungsunternehmen',
-    location: 'Eberbach, Baden',
-    type: 'Vollzeit',
-    description: 'Bestattungsfachkraft / Quereinsteiger*innen (m/w/d) gesucht',
-    tags: ['Bestattungsfachkraft'],
-    date: '2025-12-25'
-  },
-  {
-    id: '18',
-    title: 'Trauerberater und Bestatter (m/w/d)',
-    employer: 'Bestattungen Werner GmbH & Co. KG',
-    location: 'Mössingen',
-    type: 'Vollzeit',
-    description: 'Trauerberater und Bestatter (m/w/d)',
-    tags: ['Bestattungsfachkraft'],
-    date: '2025-12-23'
-  },
-  {
-    id: '19',
-    title: 'Bestatter/Bestattungshilfskraft/Quereinsteiger',
-    employer: 'Manja Herrfurth',
-    location: 'Bad Belzig',
-    type: 'Vollzeit',
-    description: 'Bestatter/Bestattungshilfskraft/Quereinsteiger',
-    tags: ['Bestattungsfachkraft'],
-    date: '2025-11-28'
-  },
-  {
-    id: '20',
-    title: 'Bestatter/-in (m/w/d)',
-    employer: 'Adolf Volk Bestattungsinstitut GmbH',
-    location: 'Mainz am Rhein',
-    type: 'Vollzeit',
-    description: 'Bestatter/-in (m/w/d)',
-    tags: ['Bestattungsfachkraft'],
-    date: '2025-11-20'
-  },
-  {
-    id: '21',
-    title: 'Betriebsleiter (m/w/d) Bestattungswesen',
-    employer: 'Bestatterfamilie Süd GmbH',
-    location: 'Kulmbach',
-    type: 'Vollzeit',
-    description: 'Betriebsleiter (m/w/d) Bestattungswesen',
-    tags: ['Fachwirt/in - Bestattung'],
-    date: '2025-11-14'
-  },
-  {
-    id: '22',
-    title: 'Bestatter (m/w/d)',
-    employer: 'Bestattungsunternehmen Pietät Forchheim Rösch GmbH',
-    location: 'Flachslanden, Mittelfranken',
-    type: 'Vollzeit',
-    description: 'Bestatter (m/w/d)',
-    tags: ['Bestattungsfachkraft'],
-    date: '2025-10-27'
-  },
-  {
-    id: '23',
-    title: 'Technischer Mitarbeiter / Bestatter (m/w/d)',
-    employer: 'Bestattung & Floristik Axel Schmidt GmbH',
-    location: 'Laucha an der Unstrut',
-    type: 'Vollzeit',
-    description: 'Technischer Mitarbeiter / Bestatter (m/w/d)',
-    tags: ['Bestattungsgehilfe/-gehilfin'],
-    date: '2025-10-13'
-  },
-  {
-    id: '24',
-    title: 'Bestatter/in / Bestattungsfachkraft / gepr. Bestatter / Quereinsteiger (m/w/d)',
-    employer: 'Manfred Kraus Bestattungsunternehmen',
-    location: 'Crailsheim',
-    type: 'Vollzeit',
-    description: 'Bestatter/in / Bestattungsfachkraft / gepr. Bestatter / Quereinsteiger (m/w/d)',
-    tags: ['Bestattungsfachkraft'],
-    date: '2025-09-26'
-  },
-  {
-    id: '25',
-    title: 'Bürohilfe beim Bestatter - auch für Quereinsteiger',
-    employer: 'Libitina Bestattungen GmbH',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    description: 'Bürohilfe beim Bestatter - auch für Quereinsteiger',
-    tags: ['Bürogehilf(e/in)'],
-    date: '2025-09-19'
   }
 ];
 
